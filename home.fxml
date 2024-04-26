@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.homeController">
+   <children>
+      <Label fx:id="tText" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="48.0" prefWidth="573.0" text="DENUNCIAS">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Pane layoutX="12.0" layoutY="67.0" prefHeight="323.0" prefWidth="289.0">
+         <children>
+            <Button fx:id="newD" layoutX="73.0" layoutY="50.0" mnemonicParsing="false" onAction="#newD" prefHeight="25.0" prefWidth="143.0" text="Nueva" />
+            <Button fx:id="updateD" layoutX="73.0" layoutY="101.0" mnemonicParsing="false" onAction="#upadteD" prefHeight="25.0" prefWidth="143.0" text="Actualizar" />
+            <Button fx:id="deleteD" layoutX="73.0" layoutY="149.0" mnemonicParsing="false" onAction="#deleteU" prefHeight="25.0" prefWidth="143.0" text="Eliminar" />
+            <Button fx:id="searchD" layoutX="73.0" layoutY="199.0" mnemonicParsing="false" onAction="#searchD" prefHeight="25.0" prefWidth="143.0" text="Buscar" />
+           <!--  <Button fx:id="updateD" layoutX="73.0" layoutY="119.0" mnemonicParsing="false" onAction="#updateD" onMouseOver="#newD" prefHeight="25.0" prefWidth="143.0" text="Atualizar" />
+            <Button fx:id="deleteD" layoutX="73.0" layoutY="176.0" mnemonicParsing="false" onAction="#deleteD" onMouseOver="#newD" prefHeight="25.0" prefWidth="143.0" text="Eliminar" />
+            <Button fx:id="searchD" layoutX="73.0" layoutY="238.0" mnemonicParsing="false" onAction="#searchD" onMouseOver="#newD" prefHeight="25.0" prefWidth="143.0" text="Buscar" />
+          --></children>
+      </Pane>
+      <ImageView fitHeight="323.0" fitWidth="289.0" layoutX="301.0" layoutY="67.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.55" pickOnBounds="true">
+         <image>
+            <Image url="@001.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
